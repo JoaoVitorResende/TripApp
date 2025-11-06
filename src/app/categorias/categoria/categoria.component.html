@@ -13,7 +13,7 @@
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400"
         required
       />
-      <span class="text-red-500 text-sm">Campo obrigatório</span>
+      <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('nome')">Campo obrigatório</span>
     </div>
     <div class="mb-4">
       <label class="block text-gray-600 font-medium mb-2">Descrição</label>
@@ -28,7 +28,7 @@
         required
       >
       </textarea>
-      <span class="text-red-500 text-sm">Campo obrigatório</span>
+      <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('descricao')">Campo obrigatório</span>
     </div>
     <button
       type="submit"
