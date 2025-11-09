@@ -1,14 +1,19 @@
 {
-    "categorias":[
-        {
-            "id":1,
-            "nome":"restaurantes",
-            "descricao":"lugares para alimentacao"
-        },
-        {
-            "id":2,
-            "nome":"lojas",
-            "descricao":"lugares para comprar"
-        }
-    ]
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "restaurantes",
+      "descricao": "lugares para alimentacao"
+    },
+    {
+      "id": "2",
+      "nome": "lojas",
+      "descricao": "lugares para comprar"
+    },
+    {
+      "id": "f608",
+      "nome": "teste",
+      "descricao": "teste"
+    }
+  ]
 }

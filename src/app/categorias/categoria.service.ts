@@ -8,12 +8,12 @@ import { Observable } from 'rxjs';
 export class CategoriaService {
 
   constructor(private http: HttpClient) { }
-  salvar(categoria: Categoria):Observable<Categoria>
+  register(categoria: Categoria):Observable<Categoria>
   {
-    return this.http.post<Categoria>('htpp://localhost:3000/categorias', categoria);
+    return this.http.post<Categoria>('http://localhost:3000/categorias', categoria);
   }
   GetTodas():Observable<Categoria[]>
   {
-    return this.http.get<Categoria[]>('htpp://localhost:3000/categorias');
+    return this.http.get<Categoria[]>('http://localhost:3000/categorias');
   }
 }
