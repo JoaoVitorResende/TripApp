@@ -15,5 +15,23 @@
       "nome": "teste",
       "descricao": "teste"
     }
+  ],
+  "lugares": [
+    {
+      "id": "f1b6",
+      "nome": "teste",
+      "categoria": "teste",
+      "localizacao": "teste",
+      "urlFoto": "teste",
+      "avaliacao": "3"
+    },
+    {
+      "id": "f321",
+      "nome": "teste2",
+      "categoria": "teste",
+      "localizacao": "teste2",
+      "urlFoto": "teste2",
+      "avaliacao": "1"
+    }
   ]
 }
