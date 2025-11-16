@@ -6,6 +6,7 @@
       <label for="nome" class="block text-gray-600 font-medium mb-2">Nome do lugar</label>
       <input type="text" id="nome" name="nome" formControlName="nome" placeholder="ex: praia da ferrugem"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400" required />
+      <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('nome')">Campo obrigatório</span>
     </div>
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium mb-2">Categorias</label>
@@ -14,16 +15,19 @@
         <option [value]="">Selecione uma categoria</option>
         <option *ngFor="let cat of listaCategorias" [value]="cat.nome">{{cat.nome}}</option>
       </select>
+      <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('categoria')">Campo obrigatório</span>
     </div>
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium mb-2">Localização</label>
       <input type="text" id="localizacao" name="localizacao" formControlName="localizacao" placeholder="ex: Garopaba"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400" required />
+         <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('localizacao')">Campo obrigatório</span>
     </div>
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium mb-2">Url Foto</label>
       <input type="text" id="urlFoto" name="urlFoto" formControlName="urlFoto" placeholder="ex: link aqui"
         class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400" required />
+        <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('urlFoto')">Campo obrigatório</span>
     </div>
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium mb-2">Avaliação</label>
@@ -36,6 +40,7 @@
         <option [value]="4">4-bom</option>
         <option [value]="5">5-ótima</option>
       </select>
+      <span class="text-red-500 text-sm" *ngIf="CheckCampoInvalido('avaliacao')">Campo obrigatório</span>
     </div>
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">
       Cadastrar lugar

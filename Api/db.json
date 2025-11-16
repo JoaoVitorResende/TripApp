@@ -32,6 +32,14 @@
       "localizacao": "teste2",
       "urlFoto": "teste2",
       "avaliacao": "1"
+    },
+    {
+      "id": "58b3",
+      "nome": "teste4",
+      "categoria": "teste",
+      "localizacao": "teste4",
+      "urlFoto": "teste4",
+      "avaliacao": "3"
     }
   ]
 }
