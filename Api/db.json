@@ -40,6 +40,22 @@
       "localizacao": "teste4",
       "urlFoto": "teste4",
       "avaliacao": "3"
+    },
+    {
+      "id": "dbba",
+      "nome": "teste5",
+      "categoria": "teste",
+      "localizacao": "teste5",
+      "urlFoto": "https://bloodycase.com/blog/cs2-italy-callouts-full-guide/",
+      "avaliacao": "5"
+    },
+    {
+      "id": "82c0",
+      "nome": "teste6",
+      "categoria": "teste",
+      "localizacao": "teste6",
+      "urlFoto": "https://bloodycase.com/wp-content/uploads/2025/02/italy02.jpeg",
+      "avaliacao": "3"
     }
   ]
 }
