@@ -20,4 +20,7 @@ export class GaleriaComponent implements OnInit{
     this.lugarService.GetTodas().subscribe(lug => this.lugares = lug);
     console.log(this.lugares[2].urlFoto);
   }
+  getTotalEstrelas(lugar: Lugar) : string{
+    return '&#9733;'.repeat(lugar.avaliacao || 0) + '&#9734;'.repeat(5 - (lugar.avaliacao || 0));
+  }
 }
