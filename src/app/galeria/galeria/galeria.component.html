@@ -4,7 +4,7 @@
             <input type="text" name="nomeFiltro" [(ngModel)]="nomeFiltro" placeholder="Pesquisar pelo nome"
                 class="w-full border border-gray-300 p-2 rounded shadow-sm focus:ring focus:ring-blue-400" />
             <select name="categoriaFiltro" [(ngModel)]="categoriaFiltro" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400">
-                <option [value]="">Todas as categorias</option>
+                <option [value]="-1">Todas as categorias</option>
                 <option *ngFor="let cat of categorias" [value]="cat.nome">{{cat.nome}}</option>
             </select>
             <button (click)="filtrar()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-200">
