@@ -13,13 +13,22 @@ const routes: Routes = [
           import('../categorias/categorias.module').then(
             (m) => m.CategoriasModule
           ),
-          pathMatch:'full'
+          pathMatch:'full',
+          data:{titulo:'Categorias', subtitulo:"Realise cadastro de novas categorias"}
       },
       {
         path: 'lugares',
         loadChildren: () =>
           import('../lugares/lugares.module').then((m) => m.LugaresModule),
-        pathMatch:'full'
+        pathMatch:'full',
+        data:{titulo:'Lugares', subtitulo:"Realise cadastro de novos lugares"}
+      },
+      {
+        path: 'galerias',
+        loadChildren: () =>
+          import('../galeria/galeria.module').then((m) => m.GaleriaModule),
+        pathMatch:'full',
+        data:{titulo:'Galerias', subtitulo:"Realise cadastro de novas galerias"}
       },
     ],
   },

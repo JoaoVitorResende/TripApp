@@ -14,6 +14,11 @@
       "id": "f608",
       "nome": "teste",
       "descricao": "teste"
+    },
+    {
+      "id": "5704",
+      "nome": "praia",
+      "descricao": "bem uma praia duh"
     }
   ],
   "lugares": [
@@ -40,6 +45,30 @@
       "localizacao": "teste4",
       "urlFoto": "teste4",
       "avaliacao": "3"
+    },
+    {
+      "id": "dbba",
+      "nome": "teste5",
+      "categoria": "teste",
+      "localizacao": "teste5",
+      "urlFoto": "https://bloodycase.com/blog/cs2-italy-callouts-full-guide/",
+      "avaliacao": "5"
+    },
+    {
+      "id": "82c0",
+      "nome": "teste6",
+      "categoria": "teste",
+      "localizacao": "teste6",
+      "urlFoto": "https://bloodycase.com/wp-content/uploads/2025/02/italy02.jpeg",
+      "avaliacao": "3"
+    },
+    {
+      "id": "6c1e",
+      "nome": "praia da ferrugem",
+      "categoria": "praia",
+      "localizacao": "Imbituba",
+      "urlFoto": "https://primeimg2.nyc3.cdn.digitaloceanspaces.com/arquivos/1/144318201910283023235066794.jpg",
+      "avaliacao": "4"
     }
   ]
 }
